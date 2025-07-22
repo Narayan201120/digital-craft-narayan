@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Github, Linkedin, Mail, Download, ArrowDown } from "lucide-react";
 
 const Hero = () => {
-  const skills = ["React", "TypeScript", "Node.js", "Python", "MongoDB", "PostgreSQL"];
+  const skills = ["Python", "Java", "C++", "Machine Learning", "Data Analytics", "Flask"];
 
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });

@@ -14,39 +14,39 @@ import {
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend Development",
+      title: "Programming Languages",
       icon: Code2,
-      skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Next.js", "Redux"],
+      skills: ["C", "C++", "Java", "Python", "HTML Basics"],
       color: "from-blue-500 to-cyan-500"
     },
     {
-      title: "Backend Development", 
+      title: "Web Development", 
       icon: Server,
-      skills: ["Node.js", "Express", "Python", "Django", "Flask", "REST APIs", "GraphQL"],
+      skills: ["Python", "Flask", "HTML", "Web Applications", "Backend Development"],
       color: "from-green-500 to-emerald-500"
     },
     {
-      title: "Database & Cloud",
+      title: "Database & Analytics",
       icon: Database,
-      skills: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "AWS", "Docker", "Kubernetes"],
+      skills: ["SQL", "Data Analytics", "Power BI", "Data Visualization", "Business Intelligence"],
       color: "from-purple-500 to-violet-500"
     },
     {
-      title: "Mobile Development",
-      icon: Smartphone,
-      skills: ["React Native", "Flutter", "Android", "iOS", "Progressive Web Apps"],
+      title: "Machine Learning & AI",
+      icon: Zap,
+      skills: ["Machine Learning", "Data Science", "Python ML Libraries", "Predictive Analytics"],
       color: "from-orange-500 to-red-500"
     },
     {
-      title: "DevOps & Tools",
-      icon: GitBranch,
-      skills: ["Git", "GitHub", "CI/CD", "Jenkins", "Linux", "Nginx", "Monitoring"],
+      title: "Tools & Platforms",
+      icon: Cloud,
+      skills: ["Docker Desktop", "Power BI", "Development Tools", "Version Control"],
       color: "from-indigo-500 to-blue-500"
     },
     {
-      title: "Design & UI/UX",
+      title: "Soft Skills",
       icon: Palette,
-      skills: ["Figma", "Adobe XD", "Responsive Design", "User Experience", "Prototyping"],
+      skills: ["Communication", "Quick Learner", "Problem Solving", "Self Driven", "Creative", "Adaptability", "Good Listener"],
       color: "from-pink-500 to-rose-500"
     }
   ];
