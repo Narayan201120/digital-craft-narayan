@@ -6,64 +6,64 @@ import { Github, ExternalLink, Folder, Star } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with modern payment integration, inventory management, and real-time analytics dashboard.",
+      title: "My_Portfolio",
+      description: "Personal portfolio website built with React showcasing skills, projects, and professional experience. Features responsive design and modern UI components.",
       image: "/api/placeholder/600/400",
-      tech: ["React", "Node.js", "MongoDB", "Stripe", "Redux"],
-      githubUrl: "https://github.com/Narayan201120/ecommerce-platform",
-      liveUrl: "https://ecommerce-demo.com",
+      tech: ["React", "JavaScript", "HTML", "CSS", "Responsive Design"],
+      githubUrl: "https://github.com/Narayan201120/My_Portfolio",
+      liveUrl: "https://narayan201120.github.io/My_Portfolio",
       featured: true,
-      stars: 42
+      stars: 0
     },
     {
-      title: "Task Management App", 
-      description: "Collaborative project management tool with real-time updates, team collaboration features, and advanced reporting.",
+      title: "Data Analytics Dashboard",
+      description: "Interactive dashboard for data visualization and analysis using Python and Flask. Features real-time data processing and business intelligence insights.",
       image: "/api/placeholder/600/400",
-      tech: ["React", "TypeScript", "PostgreSQL", "Socket.io"],
-      githubUrl: "https://github.com/Narayan201120/task-manager",
-      liveUrl: "https://taskmanager-demo.com",
+      tech: ["Python", "Flask", "SQL", "Power BI", "Data Analytics"],
+      githubUrl: "https://github.com/Narayan201120/data-analytics-dashboard",
+      liveUrl: "https://analytics-dashboard-demo.com",
       featured: true,
-      stars: 38
+      stars: 0
     },
     {
-      title: "Weather Dashboard",
-      description: "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
+      title: "Machine Learning Classifier",
+      description: "Python-based machine learning project implementing various classification algorithms. Includes data preprocessing, model training, and performance evaluation.",
       image: "/api/placeholder/600/400",
-      tech: ["React", "API Integration", "Chart.js", "PWA"],
-      githubUrl: "https://github.com/Narayan201120/weather-app",
-      liveUrl: "https://weather-dashboard-demo.com",
+      tech: ["Python", "Machine Learning", "Data Science", "SQL"],
+      githubUrl: "https://github.com/Narayan201120/ml-classifier",
+      liveUrl: "https://ml-classifier-demo.com",
       featured: false,
-      stars: 24
+      stars: 0
     },
     {
-      title: "Portfolio Website",
-      description: "Responsive portfolio website built with modern frameworks, featuring smooth animations and optimized performance.",
+      title: "Flask Web Application",
+      description: "Full-stack web application built with Flask framework. Features user authentication, database integration, and RESTful API endpoints.",
       image: "/api/placeholder/600/400", 
-      tech: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-      githubUrl: "https://github.com/Narayan201120/portfolio",
-      liveUrl: "https://narayan-portfolio.com",
+      tech: ["Python", "Flask", "SQL", "HTML", "Web Development"],
+      githubUrl: "https://github.com/Narayan201120/flask-web-app",
+      liveUrl: "https://flask-app-demo.com",
       featured: false,
-      stars: 18
+      stars: 0
     },
     {
-      title: "Chat Application",
-      description: "Real-time messaging app with group chats, file sharing, end-to-end encryption, and modern UI design.",
+      title: "Data Visualization Tool",
+      description: "Interactive data visualization tool using Python and Power BI. Transforms raw data into meaningful insights with dynamic charts and reports.",
       image: "/api/placeholder/600/400",
-      tech: ["React", "Socket.io", "Express", "MongoDB"],
-      githubUrl: "https://github.com/Narayan201120/chat-app",
-      liveUrl: "https://chat-demo.com",
+      tech: ["Python", "Power BI", "Data Analytics", "SQL"],
+      githubUrl: "https://github.com/Narayan201120/data-viz-tool",
+      liveUrl: "https://dataviz-demo.com",
       featured: false,
-      stars: 31
+      stars: 0
     },
     {
-      title: "Data Analytics Tool",
-      description: "Business intelligence dashboard with data visualization, report generation, and real-time monitoring capabilities.",
+      title: "Docker Containerized App",
+      description: "Containerized application demonstrating Docker best practices. Includes multi-stage builds, environment configuration, and deployment strategies.",
       image: "/api/placeholder/600/400",
-      tech: ["Python", "Django", "D3.js", "PostgreSQL"],
-      githubUrl: "https://github.com/Narayan201120/analytics-tool",
-      liveUrl: "https://analytics-demo.com",
+      tech: ["Docker", "Python", "Flask", "Containerization"],
+      githubUrl: "https://github.com/Narayan201120/docker-app",
+      liveUrl: "https://docker-app-demo.com",
       featured: false,
-      stars: 27
+      stars: 0
     }
   ];
 
